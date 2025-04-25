@@ -403,7 +403,7 @@ def predict_emotion():
         {
             "role": "system",
             "content": (
-                "You are an emotion classifier. Respond with exactly one word from this list only: Angry, Fear, Happy, Sad. "
+                "You are an emotion classifier. Respond with exactly one word from this list only: angry, fear, happy, sad. "
                 "Only return that one word. No punctuation. No explanation."
             )
         },
