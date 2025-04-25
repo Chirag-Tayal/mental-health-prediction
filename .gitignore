@@ -3,4 +3,4 @@
 web
 ml_env
 vigilant-art-*.json
-__pycache__
+__pycache__/
