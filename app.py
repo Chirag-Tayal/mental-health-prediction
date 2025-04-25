@@ -396,7 +396,7 @@ def predict_emotion():
         return redirect('/text_prediction')
 
     # Our expected chatbot outputs
-    valid_categories = ['Angry', 'Fear', 'Happy', 'Sad']
+    valid_categories = ['angry', 'fear', 'happy', 'sad']
 
     # Chatbot system prompt
     messages = [
