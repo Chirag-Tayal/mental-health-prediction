@@ -58,17 +58,17 @@ try:
     
     # Define class labels for both models
     sentiment_mapping = {
-        0: 'Angry',
-        1: 'Fear',
-        2: 'Happy',   # instead of 'Joy'
-        3: 'Sad'      # instead of 'Sadness'
+        0: 'angry',
+        1: 'fear',
+        2: 'happy',   # instead of 'Joy'
+        3: 'sad'      # instead of 'Sadness'
     }
 
     image_mapping = {
-    1: "Neutral",
-    2: "Sad",
-    3: "Happy",
-    0: "Angry"
+    1: "neutral",
+    2: "sad",
+    3: "happy",
+    0: "angry"
 }
     
     print("Models loaded successfully!")
